@@ -94,7 +94,7 @@ export const BottomNav = styled.div`
     right: 0;
     padding-bottom: 5px;
     width: auto;
-    transition: width 0.7s ease;
+    transition: all 0.7s ease;
     display: flex;
     flex-direction: ${({ open }) => (!open ? 'column' : 'row')};
 `;

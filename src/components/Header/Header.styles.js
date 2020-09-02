@@ -8,108 +8,83 @@ import { Github } from '@styled-icons/evaicons-solid/Github';
 import { FacebookSquare } from '@styled-icons/boxicons-logos/FacebookSquare';
 import { LinkedinSquare } from '@styled-icons/boxicons-logos/LinkedinSquare';
 import { DevTo } from '@styled-icons/boxicons-logos/DevTo';
-export const HeaderWrapper = styled.header`
-    width: 80px;
-    position: fixed;
-    bottom: 0;
-    top: 0;
-    background: #0c0c14;
-    transition: width 0.7s ease-out;
+import { AngleDoubleRight } from '@styled-icons/fa-solid/AngleDoubleRight';
 
-    &:hover {
-        width: 250px;
-    }
+export const HeaderWrapper = styled.header`
+    position: fixed;
+    top: 0;
+    width: ${({ open }) => (!open ? '80px' : '250px')};
+    height: 100vh;
+    background-color: #0c0c14;
+    transition: width 0.6s ease;
 `;
 export const SideNav = styled.ul`
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     height: 100%;
+    & span {
+        display: ${({ open }) => (!open ? 'none' : 'inline')};
+    }
+`;
+export const ItemSpan = styled.span`
+    display: none;
+    margin-left: 16px;
 `;
 
 export const Logo = styled.li`
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     text-align: center;
-    color: #535354;
-    background: #23232e;
+    color: #eee;
+    background: #141418;
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     width: 100%;
-    & a {
-        margin-left: 16px;
-    }
-    &:hover {
-        background: #141418;
-        cursor: pointer;
+    cursor: pointer;
+
+    & svg {
+        transform: ${({ open }) => (!open ? 'rotate(0deg)' : 'rotate(-180deg)')};
+        transition: 0.6s;
     }
 `;
 export const ListItem = styled.li`
-    width: auto;
-    ${HeaderWrapper}:hover & {
-        width: 100%;
-    }
+    width: 100%;
 `;
 export const ItemLink = styled.a`
     display: flex;
     align-items: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #ececec;
     height: 80px;
-    font-weight: 400;
-    & svg {
-        margin: 0 48px;
-    }
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s;
     &:hover {
-        background: #141418;
-        cursor: pointer;
+        color: #232313;
+        background: #fff;
+    }
+    & svg {
+        width: 24px;
+        min-width: 24px;
+        margin: 0 24px;
     }
 `;
-export const ItemSpan = styled.span`
-    display: none;
-    transition: display 0.5s ease-out;
-    ${HeaderWrapper}:hover & {
-        display: block;
-    }
-`;
+
 export const HomeIcon = styled(Home2)`
-    height: 32px;
     color: #7d9096;
-    ${ItemLink}:hover & {
-        color: #09fdba;
-    }
 `;
 export const UserIcon = styled(User)`
-    height: 32px;
     color: #7d9096;
-    ${ItemLink}:hover & {
-        color: #09fdba;
-    }
 `;
 export const CogIcon = styled(Cog)`
-    height: 32px;
     color: #7d9096;
-    ${ItemLink}:hover & {
-        color: #09fdba;
-    }
 `;
 export const ProjectIcon = styled(ProjectDiagram)`
-    height: 32px;
     color: #7d9096;
-    ${ItemLink}:hover & {
-        color: #09fdba;
-    }
 `;
 export const ContactIcon = styled(ContactMail)`
-    height: 32px;
     color: #7d9096;
-    ${ItemLink}:hover & {
-        color: #09fdba;
-    }
 `;
 
 export const BottomNav = styled.div`
@@ -118,33 +93,32 @@ export const BottomNav = styled.div`
     left: 0;
     right: 0;
     padding-bottom: 5px;
+    width: auto;
+    transition: width 0.7s ease;
+    display: flex;
+    flex-direction: ${({ open }) => (!open ? 'column' : 'row')};
 `;
 
 export const SocialLink = styled.a`
-    display: inline-block;
-    height: 32px;
-    margin: 5px 15px;
+    display: flex;
+    height: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
 `;
 
 export const GithubIcon = styled(Github)`
-    height: 32px;
     color: #7d9096;
-
-    cursor: pointer;
 `;
 export const FacebookIcon = styled(FacebookSquare)`
-    height: 32px;
     color: #7d9096;
-    cursor: pointer;
 `;
 
 export const LinkedinIcon = styled(LinkedinSquare)`
-    height: 32px;
     color: #7d9096;
-    cursor: pointer;
 `;
 export const DevToIcon = styled(DevTo)`
-    height: 32px;
     color: #7d9096;
-    cursor: pointer;
+`;
+export const ArrowLeft = styled(AngleDoubleRight)`
+    color: #7d9096;
 `;

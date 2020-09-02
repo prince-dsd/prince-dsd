@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
     HeaderWrapper,
     SideNav,
@@ -17,14 +17,22 @@ import {
     FacebookIcon,
     LinkedinIcon,
     DevToIcon,
+    ArrowLeft,
 } from './Header.styles.js';
 const Header = () => {
+    const [open, setOpen] = useState(false);
+
+    const handleMenu = e => {
+        e.preventDefault();
+        setOpen(!open);
+    };
     return (
-        <HeaderWrapper>
-            <SideNav>
-                <Logo>
+        <HeaderWrapper open={open}>
+            <SideNav open={open}>
+                <Logo onClick={e => handleMenu(e)} open={open}>
                     <ItemLink>
                         <ItemSpan>Corvus</ItemSpan>
+                        <ArrowLeft />
                     </ItemLink>
                 </Logo>
                 <ListItem>
@@ -52,7 +60,7 @@ const Header = () => {
                     </ItemLink>
                 </ListItem>
             </SideNav>
-            <BottomNav>
+            <BottomNav open={open}>
                 <SocialLink>
                     <GithubIcon />
                 </SocialLink>

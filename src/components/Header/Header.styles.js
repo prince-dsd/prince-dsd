@@ -89,14 +89,16 @@ export const ContactIcon = styled(ContactMail)`
 
 export const BottomNav = styled.div`
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: 0;
     right: 0;
     padding-bottom: 5px;
-    width: auto;
+    width: 100%;
     transition: all 0.7s ease;
     display: flex;
     flex-direction: ${({ open }) => (!open ? 'column' : 'row')};
+    justify-content: space-around;
+    align-items: center;
 `;
 
 export const SocialLink = styled.a`
@@ -104,6 +106,7 @@ export const SocialLink = styled.a`
     height: 22px;
     margin-bottom: 10px;
     cursor: pointer;
+    width: 22px;
 `;
 
 export const GithubIcon = styled(Github)`

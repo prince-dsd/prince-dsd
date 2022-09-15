@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "vscode-icons-team.vscode-icons",
+        "rvest.vs-code-prettier-eslint",
+        "2gua.rainbow-brackets",
+        "ms-vscode.vscode-typescript-next",
+        "dsznajder.es7-react-js-snippets",
+        "formulahendry.auto-complete-tag",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens"
+    ]
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { socialLinks } from '../../constants/social';
 import {
     HeaderWrapper,
     SideNav,
@@ -9,7 +10,6 @@ import {
     HomeIcon,
     UserIcon,
     CogIcon,
-    ProjectIcon,
     ContactIcon,
     BottomNav,
     SocialLink,
@@ -18,7 +18,8 @@ import {
     LinkedinIcon,
     DevToIcon,
     ArrowLeft,
-} from './Header.styles.js';
+} from './Header.styles';
+
 const Header = () => {
     const [open, setOpen] = useState(false);
 
@@ -61,14 +62,14 @@ const Header = () => {
                 </ListItem>
             </SideNav>
             <BottomNav open={open}>
-                <SocialLink>
+                <SocialLink href={socialLinks.github}>
                     <GithubIcon />
+                </SocialLink>
+                <SocialLink href={socialLinks.linkedin}>
+                    <LinkedinIcon />
                 </SocialLink>
                 <SocialLink>
                     <FacebookIcon />
-                </SocialLink>
-                <SocialLink>
-                    <LinkedinIcon />
                 </SocialLink>
                 <SocialLink>
                     <DevToIcon />

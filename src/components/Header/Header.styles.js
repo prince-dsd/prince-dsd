@@ -17,6 +17,15 @@ export const HeaderWrapper = styled.header`
     height: 100vh;
     background-color: #0c0c14;
     transition: width 0.6s ease;
+    &:hover{
+        width: 250px;
+        span{
+            display: inline;
+        }
+        div {
+            flex-direction: row;
+        }
+    }
 `;
 export const SideNav = styled.ul`
     list-style: none;

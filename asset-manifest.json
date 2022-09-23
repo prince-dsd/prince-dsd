@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5e589e7.chunk.css",
-    "main.js": "/static/js/main.80325a60.chunk.js",
-    "main.js.map": "/static/js/main.80325a60.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1fe3fa75.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1fe3fa75.js.map",
-    "static/js/2.381f8ad2.chunk.js": "/static/js/2.381f8ad2.chunk.js",
-    "static/js/2.381f8ad2.chunk.js.map": "/static/js/2.381f8ad2.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b8f86a53ea43ae0adc7e8a23911f9da1.js": "/precache-manifest.b8f86a53ea43ae0adc7e8a23911f9da1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c5e589e7.chunk.css.map": "/static/css/main.c5e589e7.chunk.css.map",
-    "static/js/2.381f8ad2.chunk.js.LICENSE.txt": "/static/js/2.381f8ad2.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/MADE Evolve Sans Thin EVO (PERSONAL USE).d1211c9b.otf"
+    "main.css": "/sudo-corvus/static/css/main.61bb1273.chunk.css",
+    "main.js": "/sudo-corvus/static/js/main.cae9d069.chunk.js",
+    "main.js.map": "/sudo-corvus/static/js/main.cae9d069.chunk.js.map",
+    "runtime-main.js": "/sudo-corvus/static/js/runtime-main.a3df169e.js",
+    "runtime-main.js.map": "/sudo-corvus/static/js/runtime-main.a3df169e.js.map",
+    "static/js/2.c96de0f1.chunk.js": "/sudo-corvus/static/js/2.c96de0f1.chunk.js",
+    "static/js/2.c96de0f1.chunk.js.map": "/sudo-corvus/static/js/2.c96de0f1.chunk.js.map",
+    "index.html": "/sudo-corvus/index.html",
+    "precache-manifest.05e9a267b2fe394f69e2a379622351f0.js": "/sudo-corvus/precache-manifest.05e9a267b2fe394f69e2a379622351f0.js",
+    "service-worker.js": "/sudo-corvus/service-worker.js",
+    "static/css/main.61bb1273.chunk.css.map": "/sudo-corvus/static/css/main.61bb1273.chunk.css.map",
+    "static/js/2.c96de0f1.chunk.js.LICENSE.txt": "/sudo-corvus/static/js/2.c96de0f1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/sudo-corvus/static/media/MADE Evolve Sans Thin EVO (PERSONAL USE).d1211c9b.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fe3fa75.js",
-    "static/js/2.381f8ad2.chunk.js",
-    "static/css/main.c5e589e7.chunk.css",
-    "static/js/main.80325a60.chunk.js"
+    "static/js/runtime-main.a3df169e.js",
+    "static/js/2.c96de0f1.chunk.js",
+    "static/css/main.61bb1273.chunk.css",
+    "static/js/main.cae9d069.chunk.js"
   ]
 }

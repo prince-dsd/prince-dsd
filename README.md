@@ -5,7 +5,7 @@
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
   </div>
-  <img src="https://komarev.com/ghpvc/?username=sudo-corvus&style=flat-square&color=blue" alt=""/>
+  <img src="https://komarev.com/ghpvc/?username=noctprince&style=flat-square&color=blue" alt=""/>
 </div>
 
 ---
@@ -37,7 +37,7 @@ I am a Software Engineer & FOSS enthusiast <img src="https://media.giphy.com/med
 ---
 
 ### :fire: My Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=sudo-corvus&theme=dark&background=000000)](https://git.io/streak-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=noctprince&theme=dark&background=000000)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sudo-corvus&layout=compact&theme=vision-friendly-dark)](https://github.com/sudo-corvus/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noctprince&layout=compact&theme=vision-friendly-dark)](https://github.com/noctprince/github-readme-stats)
 

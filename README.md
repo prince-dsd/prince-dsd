@@ -41,4 +41,9 @@ I am a Software Engineer & FOSS enthusiast <img src="https://media.giphy.com/med
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prince-dsd&layout=compact&theme=vision-friendly-dark)](https://github.com/noctprince/github-readme-stats) -->
 
-
+<a href="https://github.com/prince-dsd">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prince-dsd&theme=light&count_private=true&layout=compact" width="210" alt="Most used languages" />
+</a>
+<a href="https://github.com/prince-dsd">
+ <img align="center" src="https://github-readme-stats.vercel.app/api?username=prince-dsd&show_icons=true&theme=light&line_height=27&include_all_commits=true&count_private=true&hide=issues,prs,contribs" width="350" alt="Github stats"/>
+</a>

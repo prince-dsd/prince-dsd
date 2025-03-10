@@ -37,7 +37,8 @@ I am a Software Engineer & FOSS enthusiast <img src="https://media.giphy.com/med
 ---
 
 ### :fire: My Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=prince-dsd&theme=dark&background=000000)](https://git.io/streak-stats)
+<!--- [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=prince-dsd&theme=dark&background=000000)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prince-dsd&layout=compact&theme=vision-friendly-dark)](https://github.com/noctprince/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prince-dsd&layout=compact&theme=vision-friendly-dark)](https://github.com/noctprince/github-readme-stats) -->
+
 

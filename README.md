@@ -89,7 +89,7 @@ I turn complex problems into simple, elegant solutions through code. Whether itâ
  <img align="center" src="https://github-readme-stats.vercel.app/api?username=prince-dsd&show_icons=true&theme=light&line_height=27&include_all_commits=true&count_private=true&hide=issues,prs,contribs"  alt="Github stats"/>
 </a>
 -->
-| <a href="https://github.com/prince-dsd/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=prince-dsd&show_icons=true&include_all_commits=true&theme=light&hide_border=true" alt="My github stats" /></a> | <a href="https://github.com/prince-dsd/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prince-dsd&layout=compact&theme=light&hide_border=true" /></a> |
+| <a href="https://github.com/prince-dsd/bronya"><img align="center" src="https://github-readme-stats.vercel.app/api?username=prince-dsd&show_icons=true&include_all_commits=true&theme=light&hide_border=true" alt="My github stats" /></a> | <a href="https://github.com/prince-dsd/bronya"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prince-dsd&layout=compact&theme=light&hide_border=true" /></a> |
 | ------------- | ------------- |
 <div align="center">
   <img  src="https://komarev.com/ghpvc/?username=noctprince&style=flat-square&color=blue" alt=""/>

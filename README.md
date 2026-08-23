@@ -127,6 +127,6 @@ I turn complex problems into simple, elegant solutions through code. Whether itâ
 | <a href="https://github.com/prince-dsd/bronya"><img align="center" src="https://github-readme-stats.vercel.app/api?username=prince-dsd&show_icons=true&theme=radical&hide_border=true" alt="My github stats" /></a> | <a href="https://github.com/prince-dsd/bronya"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prince-dsd&layout=compact&theme=radical&hide_border=true" /></a> |
 | ------------- | ------------- |
 <div align="center">
-  <img  src="https://komarev.com/ghpvc/?username=noctprince&style=flat-square&color=blue" alt=""/>
+  <img  src="https://komarev.com/ghpvc/?username=prince-dsd&style=flat-square&color=blue" alt=""/>
 </div>
 

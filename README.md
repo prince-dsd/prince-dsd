@@ -90,7 +90,7 @@ I’m a Software Development Engineer focused on building **scalable, reliable, 
     <a href="mailto:neo11prince@gmail.com">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="neo11prince@gmail.com"/> 
     </a>
-    <a href="https://www.linkedin.com/in/princkumar117">
+    <a href="https://www.linkedin.com/in/princkumar25">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
     <a href="https://twitter.com/Einher1ar">
